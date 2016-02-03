@@ -1,0 +1,130 @@
+list of objects it has access too
+and list of actions it can perform
+
+list of objects = PROPERTIES
+list of actions = METHODS
+
+many default properties/methods
+custom properties/methods
+
+How do you write javascript?
+
+	use Dot Syntax/Notation
+		
+		ex. car.seats <--gives number of seats
+		    car.isTurnedOn <--gives yes or no response 
+
+Instructions have parens
+	
+	ex. car.openSunRoof()
+
+
+Variable
+	
+	something that refers to something else
+
+		ex. var favColor = 'red'; <--var means variable and in this ex refers to my fav. color
+
+			*always leave a space between var key word and name of the variable
+
+			*variable name can have under_scores but no spaces and no dashes-
+
+	Can use Camel Case
+		*small first letter and then everytime there is another word capitalize 1st letter
+
+			ex. var favColor = 'red';
+
+	Semicolon ;
+		shows the end of the line
+
+
+
+	Assigning Values
+		
+		use ' '; 
+		     |
+		     |
+		   value goes here
+
+			*Can use double and single quotes when assigning values
+
+	' ' <--putting quotes around a value you define them as strings or text
+		
+		*don't put quotes around values meant to be numbers  
+
+
+In JavaScript:
+
+	you can refer to
+			  1. Text [called strings]
+				
+					ex. var myName = 'Kelsey';
+
+			  2. Arrays 
+		
+					ex. var myArray = [];
+
+Array:
+	basically a list
+
+	can store- 
+			numbers
+			text
+			variables
+			objects
+			functions
+			  etc...
+
+	
+Value Assigning for Arrays
+
+	use []; brackets followed by ;semicolon
+
+	divide array list items with commas and put quotes around each individual item
+
+		ex. var myFavColors = ['black', 'red', 'purple'];
+
+var numOfFavColors = 3; <--this value is defined as a number, so mathematical operations can be performed on it
+
+
+Boolean Objects: 
+		Values-
+			True or False <---these values are basically the same as saying 1 or 0
+			Yes or No     <---1 for true, 0 for false
+			
+			*True or false value you can be writen upper or lower case*
+
+		ex. var hasGotFavColors = true;  
+	
+
+Object:
+
+	*can combine all the types already mentioned  
+
+	*like an array but you can give a name for every single list item
+
+	
+		ex. var kelseyObject = {
+			firstName: 'Kelsey', <--string
+			lastName: 'Swanson', <--string 
+			favColors: ['black', 'red', 'purple'], <--array
+			yearsAlive: 22, <--number
+			isFemale: true <--boolean 
+
+			};
+
+
+	*can access all values within the object's curly braces with Dot Notation
+
+		ex. kelseyObject.isFemale <--returns value of true
+
+
+
+	*objects use curly braces {} then semicolon ; 
+	*values go between curly braces
+	
+
+
+			
+	
+	
