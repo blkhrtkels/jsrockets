@@ -194,5 +194,38 @@ Can return:
 
 		
 			
+If-Else Statements:
+
+	if (//something) {
+		//do something
+
+	};
+
 	
+
+	*if what is in the parens is true, do what is in the curly braces
 	
+	ex. if (true) {
+		//do something
+
+	};
+	
+
+	ex. if (true) {
+		
+		alert('female');
+
+	};
+
+
+More Dynamic ex.
+
+	if ('female' == 'female') {
+		alert('female');
+
+	};
+
+*one equals sign assigns a value =
+*two equals signs 
+
+stoped at 1:28 in if-else statement video
