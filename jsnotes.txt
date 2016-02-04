@@ -122,9 +122,77 @@ Object:
 
 	*objects use curly braces {} then semicolon ; 
 	*values go between curly braces
+
+Functions: 
+
+	can be reused
+	can be stored in a variable
+	a variable can refer to a function
+
+	
+	function functionName () {
+	method goes into curly braces
+
+	}
+
+		ex. var function whatIsMyFavColor () { <--this function needs a return statement
+
+			}
 	
 
 
+		var doSomething = function () {
+			console.log("do something");
+
+			}
+		
+		Invoking a function--> functionName plus parens ()
+
+		ex. doSomething() <--invokes function
+
+
+		ex. var whatIsMyFavColor = function () {
+			return 'red';
+
+			}
+
+Can return: 
+		boolean statements 
+		arrays
+		anything you want
+
+	*anything after return inside curly braces doesn't run
+
+	*Parameters can go inside of function parens
+
+	ex. function that finds area, width 
+		
+		var area = function (width, height) {
+			return width * height;
+
+		}
+
+		
+		*to return stuff with this function you have to input values 
+
+		ex. area(10, 8); 
+		'	
+			returns value of 10 * 8
+			
+			80
+	
+	
+		*function that returns firt name and last name
+
+		var fullName = function (firstname, lastname) {
+			return firstname + ' ' + lastname
+
+			}
+
+				
+	*items within the function parens are called parameters
+
+		
 			
 	
 	
