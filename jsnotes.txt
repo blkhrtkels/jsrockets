@@ -229,3 +229,103 @@ More Dynamic ex.
 *two equals signs 
 
 stoped at 1:28 in if-else statement video
+
+for if statements it goes:
+
+		if (statement inside of parens is true) {
+			perform method inside of curly braces
+		 	}
+
+*if the statement inside of the parens of the if function isn't true the method inside the
+curly braces does nothing
+
+
+	ex. 
+		var number1 = 10;
+		var number2 = 100;
+
+		if (number1 > number2) {
+			alert('true!');  <--the alert will not happen, 10 is NOT bigger than 100
+		    }
+
+		if (number1 < number2) {
+			alert('true!'); <--this alert will happen, 10 is smaller than 100
+		     }
+
+
+if-else statements: 
+
+		var number1 = 10;
+		var number2 = 100;
+		
+		if (number1 > number2) {
+			alert('true!');  <--the alert will not happen, 10 is NOT bigger than 100
+		    } else {
+			alert('false'); <--the else statement causes an alert for anyhting that is not true
+		}
+			
+
+else-if statements:
+
+		var name1 = 'Kelsey';
+
+		var name2 = 'Kaitlyn';
+
+		if (name1 == 'Kelsey') {
+			alert('true 1');
+
+		} else if (name2 == 'Kelsey') {
+			alert('true 2');
+		
+
+		} else { 
+		       alert('false');
+		}
+
+*with if-else statments you can say and 
+			you can say or
+
+operator symbols:
+
+&& <-- and
+|| <-- or
+
+			AND
+
+		var name1 = 'Kelsey';
+
+		var name2 = 'Kaitlyn';
+
+		if (name1 == 'Kelsey' && name2 == 'Kaitlyn') { <--this must be true and this must be true
+			alert('true 1');
+
+		} else if (name2 == 'Kelsey') {
+			alert('true 2');
+		
+
+		} else { 
+		       alert('false');
+
+			
+			OR
+
+		var name1 = 'Kelsey';
+
+		var name2 = 'Kaitlyn';
+
+		if (name1 == 'Kelsey' || name2 == 'Kaitlyn') { <--this must be true or this must be true
+			alert('true 1');
+
+		} else if (name2 == 'Kelsey') {
+			alert('true 2');
+		
+
+		} else { 
+		       alert('false');
+
+OBJECTS:
+
+	signiied with {}; 
+		
+	properties go inside the {};
+		

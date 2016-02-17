@@ -1,0 +1,1 @@
+var number = +prompt('Enter First Number'); var addition = +prompt('enter second number'); var name = prompt('enter name'); var tot = number + addition; alert(name + ',' + ' ' + 'the sum of' + ' ' + number + ' and ' + addition + ' ' + 'is' + ' '+ tot)
